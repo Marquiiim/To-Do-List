@@ -1,2 +1,1 @@
-# ToDoList
- Projeto lista de tarefas
+# ToDoList (Projeto lista de tarefas)

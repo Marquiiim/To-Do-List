@@ -1,0 +1,28 @@
+li .tasks_actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+li .tasks_actions .complete {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+li .tasks_actions .complete:hover {
+  color: greenyellow;
+}
+li .tasks_actions .trash {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+li .tasks_actions .trash:hover {
+  color: red;
+}
+
+.completed {
+  background-color: #d3f9d8;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: line-through;
+}/*# sourceMappingURL=TasksBlocks.module.css.map */

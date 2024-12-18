@@ -1,0 +1,64 @@
+.container_screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container_screen .content_screen {
+  background-color: rgba(166, 166, 166, 0.7176470588);
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+.container_screen .content_screen .actions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.container_screen .content_screen .actions input {
+  padding: 10px;
+  width: 75%;
+  border-radius: 0.9rem;
+  border: none;
+  text-align: center;
+  background-color: #dddddd;
+  outline: none;
+}
+.container_screen .content_screen .actions input::-moz-placeholder {
+  color: #4b0082;
+}
+.container_screen .content_screen .actions input::placeholder {
+  color: #4b0082;
+}
+.container_screen .content_screen .actions button {
+  background-color: #dddddd;
+  color: #4b0082;
+  padding: 12px;
+  border: none;
+  border-radius: 0.9rem;
+  cursor: pointer;
+}
+.container_screen .content_screen .actions button:hover {
+  opacity: 0.9;
+}
+.container_screen .content_screen .actions button:active {
+  opacity: 0.8;
+}
+.container_screen .content_screen .content_tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 10px;
+  border-radius: 0.9rem;
+  background-color: rgba(221, 221, 221, 0.4549019608);
+}
+.container_screen .content_screen .content_tasks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}/*# sourceMappingURL=TaskScreen.module.css.map */
